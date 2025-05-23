@@ -1,0 +1,48 @@
+body {
+    /* border: 5px solid tomato; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 95vh;
+
+    padding: 0 10rem 0 10rem;
+}
+
+.outline-form {
+    border: 1px solid black;
+
+    width: 25rem;
+    height: 30rem;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.form-container {
+    border: 1px solid black;
+
+    /* ini supaya form kesamping */
+    display: flex; 
+
+    /* ini agar muat 2 form */
+    width: 200%;    
+    height: 100%;
+
+    transition: transform 0.7s ease-in-out;
+}
+
+.form-login,
+.form-regist {
+    /* border: 1px solid black; */
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    /* ini ngikutin parent */
+    box-sizing: border-box;
+}
